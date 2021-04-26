@@ -20,7 +20,7 @@ console.log('und: ' + und);
 // ******* Variable Scope
 
 var myVariable = 'global';
-myOtherVariable = 'global';
+var myOtherVariable = 'global';
 
 function myFunction() {
   var myVariable = 'local';
